@@ -6,7 +6,7 @@
 /* INICIO Servicios - grid */
 
 .grid-section-1 {
-width: 100%;
+width: 300px;
 height: 100%;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
