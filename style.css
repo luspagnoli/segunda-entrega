@@ -116,7 +116,23 @@ h1{
 
 /* Inicio About */
 
-.container-about {
+.grid-container-about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.column-imagen {
+  background-size: cover;
+  background-position: center;
+  
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+/* .container-about {
   max-width: 960px;
   margin: 100% auto;
   outline: 3px solid whitesmoke;
@@ -133,7 +149,7 @@ h1{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
   }
-}
+} */
 
 
 /* Inicio Pie de pagina */
